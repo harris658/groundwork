@@ -1,5 +1,5 @@
 ---
-name: setup
+name: groundwork-setup
 description: Scaffold a complete Groundwork learning workspace from scratch. Use this when the user says "groundwork setup", "set up a learning workspace", "create a lab workspace", "initialize a groundwork workspace", or wants to start a structured learning environment. Creates the full directory structure — projects, concept library, project template, portfolio hub, and a CLAUDE.md that wires in the groundwork skills.
 ---
 
@@ -16,7 +16,7 @@ Scaffolds a complete learning workspace — the same structure used in the Groun
 2. **Create the directory structure** (see below).
 
 3. **Confirm** what was created and what to do next:
-   > "Workspace created at `<path>`. Open it in Claude Code and start with `groundwork:teach` when you're ready to learn something."
+   > "Workspace created at `<path>`. Open it in Claude Code and start with `groundwork-teach` when you're ready to learn something."
 
 ## Directory structure to create
 
@@ -56,9 +56,9 @@ A concept-by-concept learning workspace using the Groundwork system.
 
 ## Skills
 
-- **Teaching sessions:** invoke `groundwork:teach` — handles theory-before-practice, per-step flow, debrief.
-- **Pause / resume:** invoke `groundwork:resume` — checkpoints the session and reads the trail to resume cold.
-- **Diagrams:** invoke `groundwork:wireframe` — draws an Excalidraw diagram after a concept is confirmed working.
+- **Teaching sessions:** invoke `groundwork-teach` — handles theory-before-practice, per-step flow, debrief.
+- **Pause / resume:** invoke `groundwork-resume` — checkpoints the session and reads the trail to resume cold.
+- **Diagrams:** invoke `groundwork-wireframe` — draws an Excalidraw diagram after a concept is confirmed working.
 - **New project:** copy `_template/` to `projects/<name>`, `git init`, fill in README, wire into hub.
 
 ## Reference sources
@@ -84,7 +84,7 @@ Before teaching any concept, confirm what the source is and pull from it first.
 - Move concept by concept. Don't skip ahead.
 - Commit after every working step. Push after every commit. Git history is the learning log.
 - After each step's theory half, capture the concept in `concepts/` if it's new.
-- Use `groundwork:resume` to pause or resume any project.
+- Use `groundwork-resume` to pause or resume any project.
 
 ## Status legend
 

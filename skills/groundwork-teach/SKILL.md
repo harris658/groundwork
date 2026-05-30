@@ -1,5 +1,5 @@
 ---
-name: teach
+name: groundwork-teach
 description: World-class teaching protocol for any learning session — concept-by-concept, theory before practice, deep not fast. Use this whenever the user wants to learn something, says "teach me X", "let's learn X", "explain X", "walk me through X", starts a new concept or chapter, or asks what something is and why it works. This is the core Groundwork skill — if there's any chance a session involves learning, invoke it.
 ---
 

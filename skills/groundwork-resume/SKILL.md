@@ -1,5 +1,5 @@
 ---
-name: resume
+name: groundwork-resume
 description: Session pause and resume protocol for any learning project. Use this when the user says "pause", "I'm stopping", "let's continue later", "resume", "continue [project]", "where did we leave off", or starts a session that picks up prior learning. Handles both sides of the boundary — writing a clean checkpoint before stopping, and reading the trail to resume cold.
 ---
 

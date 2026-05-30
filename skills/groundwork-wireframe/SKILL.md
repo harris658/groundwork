@@ -1,5 +1,5 @@
 ---
-name: wireframe
+name: groundwork-wireframe
 description: Draw a hand-drawn Excalidraw concept diagram after a learning step lands. Use this when a concept is confirmed working (the learner has seen real output), a chapter is complete, or the user says "draw a diagram", "wireframe this", "draw the architecture", or "visualise this". A diagram is a recall aid — it makes the concept stick and gives something to look back at.
 ---
 
