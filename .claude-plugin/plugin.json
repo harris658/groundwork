@@ -1,0 +1,9 @@
+{
+  "name": "groundwork",
+  "description": "World-class teaching protocol — concept-by-concept learning, theory before practice, session lifecycle, and workspace setup.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Harshit Jain",
+    "email": "jainharshit707@gmail.com"
+  }
+}
